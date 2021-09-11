@@ -1,12 +1,13 @@
-// тип long long int - 64 бит = 8 байт (QWORD)
+// ГІГЁГЇ long long int - 64 ГЎГЁГІ = 8 ГЎГ Г©ГІ (QWORD)
+
 
 #include <stdio.h>
-#include <limits.h> // чтобы компилятор знал, где искать значения константы CHAR_BIT
+#include <limits.h> // Г·ГІГ®ГЎГ» ГЄГ®Г¬ГЇГЁГ«ГїГІГ®Г° Г§Г­Г Г«, ГЈГ¤ГҐ ГЁГ±ГЄГ ГІГј Г§Г­Г Г·ГҐГ­ГЁГї ГЄГ®Г­Г±ГІГ Г­ГІГ» CHAR_BIT
 
 
 int main()
 {
-    // нужен спецификатор типа lld или llu
+    // Г­ГіГ¦ГҐГ­ Г±ГЇГҐГ¶ГЁГґГЁГЄГ ГІГ®Г° ГІГЁГЇГ  lld ГЁГ«ГЁ llu
     printf("LLONG_MIN = %lld\n", LLONG_MIN);
     printf("LLONG_MAX = %lld\n", LLONG_MAX);
     printf("ULLONG_MAX = %llu\n", ULLONG_MAX); // ULLONG_MAX 2^64-1
