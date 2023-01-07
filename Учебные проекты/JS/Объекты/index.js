@@ -1,27 +1,27 @@
-const appNode = document.querySelector('.js-app');
+const appNode = document.querySelector(".js-app");
 const book = {
-    author: 'Остин Клеон',
-    title: 'Покажи свою работу',
-    image: 'https://andychef.ru/wp-content/uploads/2014/06/cover.jpg',
-    year: '2021',
-    pages: 220
+  author: "Остин Клеон",
+  title: "Покажи свою работу",
+  image: "https://andychef.ru/wp-content/uploads/2014/06/cover.jpg",
+  year: "2021",
+  pages: 220,
 };
 const book1 = new Object();
 
 function render() {
-    const html = `
+  const html = `
         <div>
             <h1>${book.title}</h1>
             <p>${book.author}</p> 
             <img
-                scr='${book.image}'
+                src='${book.image}'
                 alt='${book.title}, ${book.author}'/>  <!-- любой текст -->
         </div> 
-    `; //не выводится картинка 17 / не работают комментарии в div
-    appNode.innerHTML = html;
+    `; // не работают комментарии в div
+  appNode.innerHTML = html;
 }
 
-render(); 
+render();
 
 console.log(book.author);
 
@@ -30,4 +30,4 @@ console.log(book.author);
 
 
 
-*/ 
+*/
