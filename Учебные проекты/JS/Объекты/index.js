@@ -18,16 +18,11 @@ function render() {
                 alt='${book.title}, ${book.author}'/>  <!-- любой текст -->
         </div> 
     `; // не работают комментарии в div
+    // что за ` апостров
+        // live server не работает сайт при запуске
   appNode.innerHTML = html;
 }
 
 render();
 
 console.log(book.author);
-
-/*
-
-
-
-
-*/
