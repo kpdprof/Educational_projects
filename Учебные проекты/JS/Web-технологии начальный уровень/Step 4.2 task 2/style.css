@@ -15,8 +15,6 @@ body{
     position: relative;
     width: 211px;
     height: 56px;
-    
-    border: solid #753C20;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -25,8 +23,10 @@ body{
     line-height: 56px;
     text-align: center;
     text-transform: uppercase;
-
     color: #753C20;
+
+    border: solid #753C20;
+    background-color: #7ef29d;
 }
 .block {
     display: flex;

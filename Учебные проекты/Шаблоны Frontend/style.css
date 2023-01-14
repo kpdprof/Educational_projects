@@ -1,7 +1,8 @@
-.buttonStyle {
-    margin-top: 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.generalInformation {
-    display: block;
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFDED; 
 }
