@@ -1,0 +1,1 @@
+[Pascal с НУЛЯ - YouTube] (https://www.youtube.com/watch?v=1frW-tpKnT8&list=PLD0odoSBP4vJQPOiEtQGHvUKqrg64Zd5b&index=1)
