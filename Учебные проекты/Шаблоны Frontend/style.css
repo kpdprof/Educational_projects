@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     background-color: #FFFDED; 
 }
