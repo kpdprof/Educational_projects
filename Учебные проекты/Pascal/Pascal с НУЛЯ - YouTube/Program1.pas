@@ -1,6 +1,4 @@
-program first;
+﻿program Hello;
 begin
-    write('Привет!');
+    write('Привет');
 end.
-
-...
