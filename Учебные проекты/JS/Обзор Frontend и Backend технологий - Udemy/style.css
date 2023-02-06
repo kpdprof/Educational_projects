@@ -9,3 +9,13 @@ body{
     font-style: normal;
     background-color: #ffffff; 
 }
+.number{
+    width: 60px;
+    padding: 10px;
+    font-size: 36px;
+    text-align: center;
+}
+.button{
+    padding: 10px 30px;
+    font-size: 36px;
+}
