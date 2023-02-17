@@ -2,7 +2,6 @@
     session_start();
     $counter = 0;
     if (isset($_SESSION["counter"]))
-        
         $_SESSION["counter"] ++;
     else
         $_SESSION["counter"] = 0;
