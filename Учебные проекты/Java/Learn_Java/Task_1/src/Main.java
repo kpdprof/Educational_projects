@@ -1,24 +1,52 @@
 public class Main {
     public static void main(String[] args) {
-        byte b = 1; // 8 bit / -128..127
-        short s = 1; // 16 bit / -32768..32767
-        int i = 1; // 32 bit /
-        long l = 1L; // 64 bit /
+        var varByte = 1; // 8 bit / -128..127
+        var varShort = 1; // 16 bit / -32768..32767
+        var varInt = 1; // 32 bit / -2147483648..2147483647 / число сначала приводиться к int
+        var varLong = 1L; // 64 bit / -9223372036854775808..9223372036854775807
 
-        float f = 1.0f; // 32 bit /
-        double d = 1.0; // 64 bit /
+        var varFloat = 1.0f; // 32 bit /
+        var varDouble = 1.0; // 64 bit / число сначала приводиться к double
 
-        char c = 'a'; // 16 bit / only positive
-        boolean bool = true; // true or false
+        var varChar = 'a'; // 16 bit / only positive
+        var varBoolean = false; // true or false / false по умолчанию
+
+        System.out.println(Integer.MAX_VALUE);
+        // Числа по умолчанию равны 0, для логических – false, для ссылок на объект – null
+
     }
 
     // Сигнатура метода — это имя метода плюс параметры (причем порядок параметров имеет значение).
     // В сигнатуру метода не входит возвращаемое значение, а также бросаемые им исключения.
-    public static void drawIsMonitorsCounter(int monitors, int programmers) {
-
+    public static int drawIsMonitorsCounter(int monitors, int programmers) {
+        if (monitors == programmers) {
+            return 0;
+        } else if (monitors > programmers) {
+            return monitors % programmers;
+        } else if (monitors < programmers) {
+            return 0;
+        } else {
+            return 0;
+        }
     }
-
+    System.out.println("%d", drawIsMonitorsCounter(20, 10));
     public static void priceCalculation(double price, int count) {
 
     }
+
 }
+
+
+
+
+
+
+// Как создать пакет через консоль
+// Загуглив пакеты util java, не вижу Scanner, где он лежит
+// где в IDE лежит util и как его найти
+
+// где находятся методы оберток (в какой пакете) и чем статические константы оберток и где они обитают
+// valueOf, parseInt, MAX_VALUE, MIN_VALUE
+
+//Какие основыне источники решения задач на работе?
+//Часто используются книги для решения задач или в основном гугл, документация, документация компании
