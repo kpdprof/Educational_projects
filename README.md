@@ -1,8 +1,1 @@
-# Learn-C
-
-
-sdf
-
-
-
-
+# Educational projects
