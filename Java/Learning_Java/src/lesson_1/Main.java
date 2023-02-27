@@ -1,3 +1,5 @@
+package lesson_1;
+
 public class Main {
     public static void main(String[] args) {
         var varByte = 1; // 8 bit / -128..127
@@ -13,7 +15,7 @@ public class Main {
 
         System.out.println(Integer.MAX_VALUE);
         // Числа по умолчанию равны 0, для логических – false, для ссылок на объект – null
-
+        System.out.println(drawIsMonitorsCounter(21, 10));
     }
 
     // Сигнатура метода — это имя метода плюс параметры (причем порядок параметров имеет значение).
@@ -29,7 +31,6 @@ public class Main {
             return 0;
         }
     }
-    System.out.println(drawIsMonitorsCounter(20, 10));
 
     public static void priceCalculation(double price, int count) {
 
